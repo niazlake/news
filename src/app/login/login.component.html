@@ -1,0 +1,25 @@
+<div>
+  <div class="loginForm">
+    <div class="formHead">
+    </div>
+    <div class="formBody">
+      <div>
+        <div class="formInput">
+          <div>Логин</div>
+          <input type="text" minlength="3" [(ngModel)]="loginInput">
+        </div>
+        <div class="formInput">
+          <div>Пароль</div>
+          <input type="password" minlength="3" [(ngModel)]="passwordInput">
+        </div>
+      </div>
+      <div class="loginButton">
+          <button (click)="login()">Войти</button>
+      </div>
+      <div class="forgotPass">
+        <button (click)="registration()">Регситрация?</button>
+      </div>
+
+    </div>
+  </div>
+</div>
